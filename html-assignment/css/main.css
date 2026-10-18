@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+header,
+footer {
+    background-color: rgb(234, 193, 233);
+}
+
+.site-title {
+    color: rgb(5, 5, 56);
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.hobbies {
+    list-style-type: square;
+}
+
+.hobbies li:nth-child(odd) {
+    background-color: rgba(211, 211, 211, 0.909);
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(234, 198, 229);
+    border: 1px solid rgb(0, 0, 14);
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: lightcoral;
+}
