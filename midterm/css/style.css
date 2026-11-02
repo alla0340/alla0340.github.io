@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    background-color: #aad4cf;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+header, nav, main, footer {
+    max-width: 788px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    position: relative;
+    height: 263px;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 48px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    background-color: #d4e9e7;
+    padding: 15px 0;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav a:not(:last-child) {
+    border-right: 1px solid #888;
+}
+
+/* Main content */
+main {
+    background-color: #d4e9e7;
+    padding: 8px;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: normal;
+    margin: 14px 0 12px;
+}
+
+/* Article */
+.article-image {
+    float: left;
+    width: 192px;
+    margin: 0 15px 10px 0;
+}
+
+article p {
+    font-size: 13px;
+    line-height: 1.3;
+    margin: 0 0 10px;
+}
+
+article::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Facts */
+#facts ul {
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+/* Contact form */
+#contact {
+    margin-top: 20px;
+}
+
+form {
+    border: 1px solid #555;
+    padding: 12px;
+}
+
+form label {
+    display: inline-block;
+    margin: 12px 0 6px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    height: 77px;
+}
+
+form input[type="radio"] {
+    margin-left: 5px;
+}
+
+form input[type="radio"] + label {
+    margin-right: 8px;
+}
+
+button {
+    display: block;
+    margin-top: 12px;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+header, nav, main, footer {
+    width: 100%;
+    max-width: 788px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    padding: 8px;
+}
+
+article h2 {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+nav {
+    margin-bottom: 0;
+}
+
+.article-image {
+    width: 192px;
+}
+footer {
+    background-color: #d4e9e7;
+    text-align: right;
+    padding: 15px 25px 25px;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+    font-size: 13px;
+}
